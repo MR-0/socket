@@ -13,3 +13,8 @@ where <pid> is the process id of the script\
   
 Once the script (PHP) socket is running in the server, you can send and recive information via webSockets (JS).
 The url must be refer to the same port and with ws scheme. For example: ws://localhost:8090/
+
+## References
+- https://techoctave.com/c7/posts/60-simple-long-polling-example-with-javascript-and-jquery
+- https://phppot.com/php/simple-php-chat-using-websocket/
+- https://medium.com/@cn007b/super-simple-php-websocket-example-ea2cd5893575
