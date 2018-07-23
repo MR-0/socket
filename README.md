@@ -19,7 +19,7 @@ For control check the ports avaible in the server\
 \> nmap server.name.com\
 And...\
 \> telnet server.name.com 8090\
-Via SSH to check if you can connect to the server
+Via SSH to check if you can connect to a specific port in the server
 
 ## References
 - https://techoctave.com/c7/posts/60-simple-long-polling-example-with-javascript-and-jquery
