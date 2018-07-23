@@ -14,6 +14,13 @@ where <pid> is the process id of the script
 Once the script (PHP) socket is running in the server, you can send and receive information via webSockets (JS).
 The url must be refer to the same port and with ws scheme. For example: ws://localhost:8090/
 
+### Check server state
+For control check the ports avaible in the server/
+\> nmap server.name.com\
+And...\
+\> telnet server.name.com 8090\
+Via SSH to check if you can connect to the server
+
 ## References
 - https://techoctave.com/c7/posts/60-simple-long-polling-example-with-javascript-and-jquery
 - https://phppot.com/php/simple-php-chat-using-websocket/
