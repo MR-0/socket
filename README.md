@@ -15,7 +15,7 @@ Once the script (PHP) socket is running in the server, you can send and receive 
 The url must be refer to the same port and with ws scheme. For example: ws://localhost:8090/
 
 ### Check server state
-For control check the ports avaible in the server/
+For control check the ports avaible in the server\
 \> nmap server.name.com\
 And...\
 \> telnet server.name.com 8090\
