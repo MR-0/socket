@@ -29,7 +29,7 @@ The route is compound by:
 - protocol -> ws://
 - host     -> your.host
 - port     -> :8888
-- path     -> /path
+- path     -> /path\
 The protocol can be 'ws' or 'wss' -for ssl connection-, the host can be literaly or numeric, refer to a ip; the port generaly must be set above 8000. At last, the path can be set or not, depending the type of server you have. If its a proxy, you must set the port redirection, isolate it from the rest of the site. And, was i say early, you must set the script name as a index. In a regular server, you free to setup as you want, even in the same directory, and target the exact url to the script. 
 
 ## References
@@ -38,3 +38,5 @@ The protocol can be 'ws' or 'wss' -for ssl connection-, the host can be literaly
 - https://medium.com/@cn007b/super-simple-php-websocket-example-ea2cd5893575
 - http://php.net/manual/es/book.sockets.php
 - https://help.dreamhost.com/hc/en-us/articles/217955787-Proxy-Server
+- http://www.forosdelweb.com/f18/aporte-aplicacion-para-entender-sockets-php-951089/
+- http://php.net/manual/es/sockets.examples.php
