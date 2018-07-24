@@ -26,3 +26,4 @@ Via SSH to check if you can connect to a specific port in the server
 - https://phppot.com/php/simple-php-chat-using-websocket/
 - https://medium.com/@cn007b/super-simple-php-websocket-example-ea2cd5893575
 - http://php.net/manual/es/book.sockets.php
+- https://help.dreamhost.com/hc/en-us/articles/217955787-Proxy-Server
