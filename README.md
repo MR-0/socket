@@ -21,6 +21,17 @@ And...\
 \> telnet server.name.com 8090\
 Via SSH to check if you can connect to a specific port in the server
 
+### Via proxy server
+If you run the socket in a proxy, you must define a route and set the script as a index in that route, because you must match the proxy and socket headerto handshake whit the client.
+
+### Client side rout
+The route is compound by:
+- protocol -> ws://
+- host     -> your.host
+- port     -> :8888
+- path     -> /path
+The protocol can be 'ws' or 'wss' -for ssl connection-, the host can be literaly or numeric, refer to a ip; the port generaly must be set above 8000. At last, the path can be set or not, depending the type of server you have. If its a proxy, you must set the port redirection, isolate it from the rest of the site. And, was i say early, you must set the script name as a index. In a regular server, you free to setup as you want, even in the same directory, and target the exact url to the script. 
+
 ## References
 - https://techoctave.com/c7/posts/60-simple-long-polling-example-with-javascript-and-jquery
 - https://phppot.com/php/simple-php-chat-using-websocket/
