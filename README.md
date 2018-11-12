@@ -3,7 +3,13 @@ Socket test - PHP/JS
 
 ## Use
 For use socket, first is necesary run in the server the script\
-\> php -q socket.php
+\> php -q socket.php\
+To run the socket.php independent of the terminal window, you can run first screen:\
+\> screen\
+And the run the script:
+\> php socket.php\
+Or use these:\
+\> nohup php -q socket.php & exit
 
 If you want quit the socket, you can run these commands\
 \> lsof -l +M -i4 | grep :\<port>\
@@ -40,3 +46,4 @@ The protocol can be 'ws' or 'wss' -for ssl connection-, the host can be literaly
 - https://help.dreamhost.com/hc/en-us/articles/217955787-Proxy-Server
 - http://www.forosdelweb.com/f18/aporte-aplicacion-para-entender-sockets-php-951089/
 - http://php.net/manual/es/sockets.examples.php
+- https://stackoverflow.com/questions/612115/how-do-i-run-a-php-script-through-ssh
