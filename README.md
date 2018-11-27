@@ -57,3 +57,4 @@ The protocol can be 'ws' or 'wss' -for ssl connection-, the host can be literaly
 
 ## Use instead
 - https://github.com/walkor/phpsocket.io
+- http://socketo.me/
