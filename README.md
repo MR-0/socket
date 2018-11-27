@@ -54,3 +54,6 @@ The protocol can be 'ws' or 'wss' -for ssl connection-, the host can be literaly
 - http://www.forosdelweb.com/f18/aporte-aplicacion-para-entender-sockets-php-951089/
 - http://php.net/manual/es/sockets.examples.php
 - https://stackoverflow.com/questions/612115/how-do-i-run-a-php-script-through-ssh
+
+## Use instead
+- https://github.com/walkor/phpsocket.io
