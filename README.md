@@ -6,8 +6,12 @@ For use socket, first is necesary run in the server the script\
 \> php -q socket.php\
 To run the socket.php independent of the terminal window, you can run first screen:\
 \> screen\
-And the run the script:
+And the run the script:\
 \> php socket.php\
+To check running screen scripts:\
+\> screen -ls\
+To quit screen session:\
+\> screen -X -S \<session \#\> quit\
 Or use these:\
 \> nohup php -q socket.php & exit
 
