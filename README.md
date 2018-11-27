@@ -12,8 +12,11 @@ To check running screen scripts:\
 \> screen -ls\
 To quit screen session:\
 \> screen -X -S \<session \#\> quit\
+
 Or use these:\
-\> nohup php -q socket.php & exit
+\> nohup php -q socket.php &\
+And check if its works with:\
+\> top
 
 If you want quit the socket, you can run these commands\
 \> lsof -l +M -i4 | grep :\<port>\
