@@ -15,7 +15,7 @@ To quit screen session:\
 
 Or use these:\
 \> nohup php -q socket.php &\
-\Or
+Or\
 \> nohup php -q socket.php >/dev/null 2>&1 &\
 And check if its works with:\
 \> top
